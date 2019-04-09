@@ -1,0 +1,21 @@
+
+<div *ngIf="hero">
+
+<h2>Login:</h2>
+
+<div>
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name"/>
+  </label>
+</div>
+<div>
+  <label>paser:
+    <input type="password" />
+    <nav>
+    <a routerLink="/heroes">Connecte</a>
+    </nav>
+   </label>
+
+</div>
+
+
